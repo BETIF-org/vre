@@ -8,10 +8,10 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: main
+    branch: jhub-test
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/vre-hub/vre
+  url: ssh://git@github.com/BETIF-org/vre
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
